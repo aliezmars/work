@@ -1,0 +1,17 @@
+.item-link{
+  margin: 20px;
+  padding:10px 15px;
+  background-color: #4ea6ec;
+  color: #fff;
+  border-radius: 4px;
+  text-align: center;
+}
+.logowrappar{
+  display: flex;
+  justify-content: center;
+}
+.logo{
+  height: 520rpx;
+  width:520rpx;
+  margin:10rpx;
+}

@@ -1,0 +1,8 @@
+<!--pages/home/home.wxml-->
+<view class="headicon-avatar">
+          <open-data type="userAvatarUrl"></open-data>
+ </view>
+ <view class="titletext">欢迎使用</view>
+ <view>
+   <button class="buttonavatar" bindtap="enter" hover-class="buttonhover">进入小程序</button>
+ </view>

@@ -1,0 +1,55 @@
+/* pages/user/user.wxss */
+.avatar-wrapper {
+  background: #fff;
+  padding: 25px 0;
+}
+ 
+.avatar-wrapper .avatar {
+  margin: 0 auto;
+  text-align: center;
+}
+ 
+.avatar-wrapper .avatar image {
+  width: 100px;
+  height: 100px;
+}
+ 
+.avatar-wrapper .text {
+  text-align: center;
+  color: #000;
+}
+ 
+.userinfo-avatar {
+  text-align: center;
+  margin: 0 auto;
+  overflow: hidden;
+  display: block;
+  width: 260rpx;
+  height: 260rpx;
+  border-radius: 50%;
+  border: 2px solid #ebebef;
+}
+
+.listimg image {
+  margin-right: 5px;
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
+}
+ 
+.content{
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+ .value{
+   margin-left: 50rpx;
+ }
+/*分割线样式*/
+.divLine{
+ background: #E0E3DA;
+ width: 100%;
+ height: 5rpx;
+}
+ 
+/* user.wxss */

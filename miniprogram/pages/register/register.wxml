@@ -1,0 +1,30 @@
+<!--pages/regesiter/regesiter.wxml-->
+<view class="titletext">第一次使用，请完善您的信息</view>
+<view class="headicon-avatar1">
+          <open-data type="userAvatarUrl"></open-data>
+</view>
+ <form bindsubmit="listenFormSubmit">
+   <view class="inputview">
+     <input class="input" name="name" type="text" placeholder="请输入姓名" placeholder-style="color:gray"/>
+   </view>
+   <view class="inputview">
+     <input class="input" name="numberid" type="text" placeholder="请输入学/工号" placeholder-style="color:gray"/>
+   </view>
+<view style="display:flex;justify-content:center;margin-top:10px">
+<radio-group name="group" bindchange="radiochange">
+<label style="margin-right:300rpx">
+  <radio  value="employees" checked="true">
+    <text class="titletext">职工</text>
+  </radio>
+</label>
+<label>
+  <radio value="students" checked="false">
+    <text class="titletext">学生</text>
+  </radio>
+</label>
+</radio-group>
+</view>
+<view>
+   <button class="buttonavatar" formType="submit" hover-class="buttonhover">完成登记</button>
+ </view>
+ </form>

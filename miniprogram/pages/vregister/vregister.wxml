@@ -1,0 +1,15 @@
+<!--pages/vregister/vregister.wxml-->
+ <form bindsubmit="listenFormSubmit">
+   <view class="inputview">
+     <input class="input" name="name" type="text" placeholder="请输入姓名" placeholder-style="color:gray"/>
+   </view>
+   <view class="inputview">
+     <input class="input" name="numberid" type="text" placeholder="请输入学号" placeholder-style="color:gray"/>
+   </view>
+   <view class="inputview">
+     <input class="input" name="stuvechileid" type="text" placeholder="请输入7位车牌号" placeholder-style="color:gray"/>
+   </view>
+<view>
+   <button class="buttonavatar" formType="submit" hover-class="buttonhover">登记</button>
+ </view>
+ </form>

@@ -1,0 +1,43 @@
+/* pages/regesiter/regesiter.wxss */
+.headicon-avatar1 {
+  margin-top: 100rpx;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom:20rpx;
+  text-align: center;
+  overflow: hidden;
+  display: block;
+  width: 260rpx;
+  height: 260rpx;
+  border-radius: 50%;
+  border: 2px solid #ebebef;
+}
+/* 未选中的 背景样式 */
+radio .wx-radio-input{ 
+  height: 36rpx; 
+  width: 36rpx;
+  border-radius: 50%;
+  background: transparent;
+}
+/* 选中后的 背景样式 */
+radio .wx-radio-input.wx-radio-input-checked{
+ border: none;
+}
+/* 选中后的 对勾样式 */
+radio .wx-radio-input.wx-radio-input-checked::before{
+ border-radius: 50%;
+ width: 36rpx; 
+ height: 36rpx;
+ line-height: 36rpx;
+ text-align: center;
+ font-size:36rpx; 
+ color: #33c9ff;
+ background:#fff;
+ border: 6rpx solid rgb(30, 144, 255);
+}
+.buttonavatar{
+  margin-top: 100rpx;
+  border-radius: 50rpx;
+  color: white;
+  background-color:rgb(30, 144, 255);
+}

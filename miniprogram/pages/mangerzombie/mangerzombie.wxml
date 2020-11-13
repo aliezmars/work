@@ -1,0 +1,11 @@
+<!--pages/mangerzombie/mangerzombie.wxml-->
+<view class="inputview1">
+     <input class="input"  bindinput="getvehicleid" type="text" placeholder="在这里输入将列为僵尸车的车辆牌号" placeholder-style="color:gray"/>
+   </view>
+<view class="divLine"></view>
+<view class="images">
+    <image class='image' mode="aspectFill" wx:for="{{photo}}" wx:key="index"  bindtap="previewimg" bindlongpress="removeimg" src="{{item}}"></image>
+    <image bindtap="chooseimage" class="image" src='https://bucket-1304009715.cos.ap-nanjing.myqcloud.com/add.png'></image>
+</view>
+<view class="divLine"></view>
+<button class="buttonavatar" bindtap="report"  hover-class="buttonhover">登记为僵尸车</button>

@@ -1,0 +1,15 @@
+<view class='logowrappar'>
+<image class='logo' style="border-radius:50%;" src="../../images/logo.png"></image>
+</view>
+<view class="index-link" wx:if="{{currentUser.usertype=='employees'}}">
+<navigator url="./../imgshow/imgshow?name={{currentUser.name}}&numid={{currentUser.numid}}&usertype={{currentUser.usertype}}&openid={{openid}}" class="item-link">违停登记</navigator>
+</view>
+<view class="index-link" wx:if="{{currentUser.usertype=='employees'}}">
+  <navigator url="./../mangerzombie/mangerzombie?name={{currentUser.name}}&numid={{currentUser.numid}}&usertype={{currentUser.usertype}}&openid={{openid}}" class="item-link">僵尸车管理</navigator>
+</view>
+<view class="index-link" wx:if="{{currentUser.usertype=='students'}}">
+<navigator url="./../claim/claim" class="item-link">僵尸车查询</navigator>
+</view>
+<view class="index-link" wx:if="{{currentUser.usertype=='students'}}">
+<navigator url="./../vregister/vregister" class="item-link">车辆信息登记</navigator>
+</view>

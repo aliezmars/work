@@ -1,0 +1,44 @@
+/* pages/showreport/showreport.wxss */
+.listimg image {
+  margin-right: 5px;
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
+}
+ 
+.content{
+  text-align: center;
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.level1{
+  background-color:yellow ;
+  border: 2px solid rgb(30, 144, 255);
+  border-radius: 10px;
+  margin-left: 15px;
+  padding: 5px;
+}
+.level2{
+  background-color:orange ;
+  border: 2px solid rgb(30, 144, 255);
+  border-radius: 10px;
+  margin-left: 15px;
+  padding: 5px;
+}
+.level3{
+  background-color:red ;
+  border: 2px solid rgb(30, 144, 255);
+  border-radius: 10px;
+  margin-left: 15px;
+  padding: 5px;
+}
+.listtext1{
+  margin-top: 20rpx;
+}
+.buttonavatar{
+  margin-top: 100rpx;
+  border-radius: 50rpx;
+  color: white;
+  background-color:rgb(30, 144, 255);
+}

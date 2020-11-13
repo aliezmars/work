@@ -1,0 +1,54 @@
+/* pages/mangerzombie/mangerzombie.wxss */
+page{
+  height: 100%;
+  background-color: #fff;
+}
+.text{
+  height: calc(100% - 90px - 380rpx);
+  background-color: white;
+  width: calc(96% - 30px);
+  margin:0 auto;
+  padding: 10px 15px;
+  font-size: 14px;
+  color:rgb(173, 216, 230);
+  line-height: 30px;
+}
+
+.images{
+  height: 380rpx;
+  margin: 10px auto;
+  width: 100%;
+  background-color: rgb(240, 255, 255);
+  overflow: auto;
+}
+
+.image{
+  height: 160rpx;
+  width: 160rpx;
+  margin:10rpx;
+}
+.buttonavatar{
+  margin-top: 50rpx;
+  border-radius: 15rpx;
+  color: white;
+  background-color:rgb(30, 144, 255);
+}
+.divLine{
+  background: #E0E3DA;
+  width: 100%;
+  height: 5rpx;
+ }
+ .inputview1{
+  border: 1px solid rgb(30, 144, 255);
+  border-radius: 10px;
+  margin-left: 0px;
+  margin-right:0px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+.inputview2{
+  margin-left: 0px;
+  margin-right:0px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}

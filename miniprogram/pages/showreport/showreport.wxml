@@ -1,0 +1,18 @@
+<!--pages/showreport/showreport.wxml-->
+<view class="titletext">登记成功！</view>
+<view class='content'>
+          <view class="listimg">
+            <image src="../../images/bike.png"></image>
+          </view>
+          <view class="listtext">车牌号:</view>
+          <view class="value">{{vehicleid}}</view>
+        </view>
+<view class='content'>
+          <view class="listtext1">违纪等级:</view>
+          <view wx:if="{{illegallevel===1}}" class="level1">等级{{illegallevel}}</view>
+          <view wx:if="{{illegallevel===2}}" class="level2">等级{{illegallevel}}</view>
+          <view wx:if="{{illegallevel===3}}" class="level3">等级{{illegallevel}}</view>
+        </view>
+        <view>
+          <button class="buttonavatar" hover-class="buttonhover" bindtap="back">返回首页</button>
+        </view>

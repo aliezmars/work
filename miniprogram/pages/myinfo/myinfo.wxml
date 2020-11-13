@@ -1,0 +1,28 @@
+<!--pages/user/user.wxml-->
+<view class="mine-wrapper">
+  <view class="avatar-wrapper">
+    <view>
+      <view class="avatar">
+       <view class="userinfo-avatar">
+          <open-data type="userAvatarUrl"></open-data>
+        </view>
+
+      </view>
+    </view>
+  </view>
+  <view class="list-wrapper">
+    <view class="alllist">
+      <block wx:for="{{menuitems}}" wx:key="menu_for">
+        <view class='content'>
+          <view class="listimg">
+            <image src="{{item.icon}}"></image>
+          </view>
+          <view class="listtext">{{item.text}}</view>
+          <view class="value">{{item.values}}</view>
+        </view>
+        <!-- 分割线 -->
+        <view class="divLine"></view>
+      </block>
+    </view>
+  </view>
+</view>
