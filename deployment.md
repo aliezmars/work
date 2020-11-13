@@ -1,0 +1,6 @@
+# 部署说明
+微信开发者工具，Node.js，Git，运行项目前请准备好这些环境
+下载项目后将文件夹解压到自定义的目录下，通过微信开发者工具导入，导入时appid输入下载者自己的appid
+由于用到云开发，请开发者开启云开发，并在项目选项里勾选增强编译
+请将cloudfunctions目录下的login云函数安装并部署到云端依赖
+请在云数据库中新建zombievehicle，vehilgals，users，stuvehicles等几个集合，保证项目正常运行。
