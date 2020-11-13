@@ -16,7 +16,7 @@ https://work-photo-1304009715.cos.ap-nanjing.myqcloud.com/HQ%60(P%25CJZB7_5P_Z%7
 请将cloudfunctions目录下的login云函数安装并部署到云端依赖
 请在云数据库中新建zombievehicle，vehilgals，users，stuvehicles等几个集合，保证项目正常运行。
 # 开源许可证标注：
-
+项目中的LENSE文件
 
 ## 参考文档
 
